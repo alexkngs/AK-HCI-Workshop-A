@@ -8,7 +8,7 @@ function spin(){
 	myOtherBox.object3D.rotation.z += rotationSpeed/2;
 	console.log(myOtherBox.object3D.rotation);
 }
-setInterval(spin, 10);
+setInterval(spin, 50);
 
 
 myOtherBox.addEventListener('mouseenter', function(){
