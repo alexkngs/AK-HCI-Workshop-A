@@ -39,3 +39,17 @@ myOtherBox.addEventListener('mouseleave', function(){
  	grow();
  	console.log('grew');
  });
+
+  var growspeed = 5;
+
+ function grow(){
+ 	myOtherOtherBox.object3D.scale.x *= growspeed;
+	myOtherOtherBox.object3D.scale.y *= growspeed;
+ 	myOtherOtherBox.object3D.scale.z *= growspeed;
+ 	console.log(myOtherOtherBox.object3D.scale);
+ }
+
+ myOtherOtherBox.addEventListener('click', function(){ // uses a fuse
+ 	grow();
+ 	console.log('grew');
+ });
