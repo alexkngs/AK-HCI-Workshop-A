@@ -40,11 +40,14 @@
         depth="1" 
         material="src: #wood2"
         shadow
-        animation="property: rotation; 
-                   to: 20 100 50; 
-                   dur: 2000; 
-                   easing: easeOutCubic; 
-                   loop: true"
+        <a-animation attribute="scale"
+        dur="1000"
+        from="1 1 1"
+        to="2 2 2"
+        direction='alternate-reverse'
+        easing="ease-in-out-circ"
+        repeat="indefinite">
+      </a-animation>
         >  
       </a-box>
 
