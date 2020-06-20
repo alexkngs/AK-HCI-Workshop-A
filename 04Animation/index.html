@@ -13,6 +13,7 @@
           <img id="wood" src="images/wood.jpg" />
           <img id="wood2" src="images/wood2.jpg" />
           <img id="grass" src="images/grass.jpg" />
+          <img id="dirt" src="images/dirt.jpg"/>
       </a-assets>
 
       <a-box id="myBox" 
@@ -40,7 +41,7 @@
         depth="1" 
         material="src: #wood2"
         shadow
-       animation="property: scale; 
+       animation="property: rotation; 
                    to: 200 1000 500; 
                    dur: 2000; 
                    easing: linear; 
@@ -54,7 +55,7 @@
         width="100" 
         height="100" 
         color="#7BC8A4" 
-        material="src: #grass; repeat: 10 10"
+        material="src: #dirt; repeat: 10 10"
         shadow>
       </a-plane>
 
